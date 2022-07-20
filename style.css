@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Source+Serif+Pro&family=Vollkorn:ital@1&display=swap');
+
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Source Serif Pro', serif;
+font-family: 'Vollkorn', serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+#homePage {
+  height: 800px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Source serif pro', serif;
+}
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+}
+
+h4 {
+  font-family: 'Vollkorn', serif;
+}
+h5 {
+  font-family: 'Source serif pro', serif;
+}
+p {
+  font-family: 'Nunito', sans-serif;
+}
+
+
+.home {
+  justify-content: center;
+  margin: 2rem;
+  padding: 3px;
+  border: 2rem;
+  overflow: hidden;
+}
+.container-fluid {
+  display: block;
+  min-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#container-card {
+  position: relative;
+  max-width: 1100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  min-width: 100%;
+}
+
+
+.card {
+  min-width: 300px;
+  min-height: 220px;
+  align-content: center;
+  
+}
+.card-img {
+  min-height: 180px;
+  min-width: 270px;
+}
+#container-card .card {
+  position: relative;
+  max-width : 300px;
+  height : 220px;  
+  background-color : #fff;
+  margin : 30px 10px;
+  padding : 20px 15px;
+  display : flex;
+  flex-direction : column;
+  box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+  transition : 0.3s ease-in-out;
+  filter: grey;
+  -webkit-filter: grayscale(1);
+}
+
+#container-card .card:hover {
+  filter: none;
+  -webkit-filter: none;
+  height: 380px;
+}
+
+#container-card .card .image {
+  position : relative;
+  width : 260px;
+  height : 260px;
+  top : -40%;
+  left: 8px;
+  box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+#container-card .card .card-img img {
+  max-width : 100%;
+  border-radius : 15px;
+}
+
+#container-card .card .card-body {
+  position : relative;
+  top : -140px;
+  padding : 10px 15px;
+  color : #111;
+  visibility : hidden;
+  opacity : 0;
+  transition : 0.3s ease-in-out;
+}
+
+#container-card .card:hover .card-body {
+  margin-top : 130px;
+  visibility : visible;
+  text-align : center;
+  opacity : 1;
+  transition-delay: 0.2s;
+}
+
+.about-container {
+  margin: 0, auto;
+  text-align: center;
+  align-items: center;
+}
+
+.form {
+  margin: 20px auto;
+  min-width: 50%;
+  max-width: 530px;
+  border: 2px solid ;
+  border-radius: 5%;
+  border-color: rgba(0,0,0,0.2);
+  padding: 10px;
+  font-weight: bold;
+}
+
+
+textarea {
+  resize: none;
+}
+
+.btn {
+  border: white;
+  background-color: #111;
+}
+
+.btn:hover {
+  background-color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
